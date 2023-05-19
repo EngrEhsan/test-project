@@ -1,8 +1,7 @@
 on: push
-
 jobs:
   build-container:
-    name: build container
+    name: Build container
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
